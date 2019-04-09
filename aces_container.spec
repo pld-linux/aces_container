@@ -1,12 +1,13 @@
 Summary:	Implementation of ACES Image Container File
 Summary(pl.UTF-8):	Implementacja pliku kontenera obrazów ACES
 Name:		aces_container
-Version:	1.0
+Version:	1.0.2
 Release:	1
 License:	BSD
 Group:		Libraries
+#Source0Download: https://github.com/ampas/aces_container/releases
 Source0:	https://github.com/ampas/aces_container/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	49f967ef6ecf1ed1162c22b4312f4103
+# Source0-md5:	b82364639768d650dd45e6085b429fb6
 Patch0:		%{name}-libdir.patch
 URL:		https://github.com/ampas/aces_container
 BuildRequires:	cmake >= 2.6
